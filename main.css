@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    background-color: antiquewhite;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+html {
+    background-image: url("./bgimg-2.jpg");
+}
+
+img {
+    width: 100%;
+}
+
+.bgimg-2 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.wide {
+    letter-spacing: 10px;
+}
+
+.hover-opacity {
+    cursor: pointer;
+}
